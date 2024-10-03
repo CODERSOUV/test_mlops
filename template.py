@@ -3,18 +3,17 @@ import os
 from pathlib import Path
 
 list_of_files = [
-
     ".github/workflows/.gitkeep",
     "src/__init__.py",
     "src/components/data_ingestion.py",
     "src/components/data_transformation.py",
     "src/components/model_trainer.py",
     "src/components/model_evaluation.py",
-    "src/pipelines/traning_pipeline.py",
+    "src/pipelines/training_pipeline.py",
     "src/pipelines/prediction_pipeline.py",
     "src/utils/utils.py",
     "src/logger/logging.py",
-    "src/exception/exception"
+    "src/exception/exception.py",  # Added .py extension
     "test/unit/__init__.py",
     "test/integration/__init__.py",
     "init_setup.sh",
@@ -26,7 +25,6 @@ list_of_files = [
     "tox.ini",
     "experiment/experiments.ipynb",
 ]
-
 
 
 def create_files():
